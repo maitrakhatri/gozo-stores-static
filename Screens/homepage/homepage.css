@@ -49,29 +49,31 @@ main a {
 }
 
 .cat-catlog {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 1rem;
+    place-items: center;
 }
 
 .sidekick {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-}
-
-.sidekick > div {
-    width: fit-content;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 34rem));
+    gap: 2rem;
 }
 
 .product-card {
     background-color: #dfdfdf;
+    min-width: 25rem;
+    max-width: 34rem;
 }
 
 .product-image-container {
     width: 50%;
     padding: 3rem;
+}
+
+.product-image {
+    min-width: 122px;
 }
 
 .product-header {
