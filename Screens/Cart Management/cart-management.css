@@ -1,0 +1,63 @@
+@import url("../universalStyles.css");
+
+main {
+    margin: 2.5rem 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-card .product-card-body {
+    justify-content: flex-start;
+}
+
+.product-action {
+    margin-top: auto;
+}
+
+.product-offer {
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.card {
+    border: none;
+    padding: 1rem;
+}
+
+.place-order .price-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-details-items {
+    display: flex;
+}
+
+.card-body * {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.pdi-price {
+    margin-left: auto;
+}
+
+.total-amount {
+    font-weight: bold;
+    border-top: 1px solid var(--text-gray);
+    border-bottom: 1px solid var(--text-gray);
+}
+
+.place-order .card .card-body .side-msg {
+    margin-top: 1rem;
+}
+
+.place-order .card .card-body button {
+    margin-top: 1rem;
+    width: 100%;
+}
