@@ -1,0 +1,23 @@
+@import url("../universalStyles.css");
+
+main {
+    margin: 2.5rem 5rem;
+}
+
+.wishlist-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liked-products {
+    margin: 5rem 3rem 0rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.product-card:hover {
+    filter: drop-shadow(0 0 0.25rem #3333337a);
+}
