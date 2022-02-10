@@ -59,6 +59,7 @@ main a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 34rem));
     gap: 2rem;
+    justify-content: space-between;
 }
 
 .product-card {
