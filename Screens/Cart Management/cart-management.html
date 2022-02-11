@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gozo Store | Log-In</title>
+    <link rel="stylesheet" href="cart-management.css">
+</head>
+<body>
+
+    <nav class="navbar bg-yellow">
+    
+        <div class="navbar-header">
+            <a href="#"><p class="navbar-header-title text-l text-gray">gozo Stores</p></a>
+        </div>
+    
+        <div class="navbar-links">
+
+            <span class="searchbar">
+                <span class="input-group">
+                    <input type="text" placeholder="find your product" />
+                </span>
+                <a href="#"><img class="icon" src="../../assets/icons/search.png" alt="search"></a>
+            </span>
+
+            <div class="icon-with-badge">
+                <a href="#"><img class="icon" src="../../assets/icons/heart-outline.png" alt="wishlist"></a>
+                <span class="badge bg-lightblue">9</span>
+            </div>
+
+            <div class="icon-with-badge">
+                <a href="#"><img class="icon" src="../../assets/icons/cart-outline.png" alt="cart"></a>
+                <span class="badge bg-lightblue">5</span>
+            </div>
+
+            <button class="btn btn-lightblue"><a href="#">Log In</a></button>
+        </div>
+    </nav>
+
+    <h1 class="text-center">My Cart</h1>
+
+    <main>
+
+        <div class="cart">
+            <div class="cart-item">
+                <div class="product-card product-horizontal bg-white">
+
+                    <div class="product-image-container">
+                        <img class="product-image" src="../../assets/images/batmanPoster.jpg" alt="product name">
+                    </div>
+                
+                    <div class="product-card-body">
+                        <div class="product-name"> The Batman - Ridler's Unmask Poster </div>
+                        <div class="product-price"> <span class="final-price"></span> 499 INR <span class="og-price text-s"><strike> INR 999 </strike></span></div>
+                        <div class="product-offer"> 50% off </div>
+                        <div class="product-quantity">Quantity: <span>
+                            <button>-</button> <span>1</span> <button>+</button>
+                        </span></div>
+                      
+                        <div class="product-action">
+                            <button class="btn btn-yellow">Remove from Cart</button>
+                              <button class="btn btn-outline-lightblue">Move to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="place-order">
+            <div class="card bg-white">
+
+                <div class="card-title">
+                    Price Details
+                </div>
+            
+                <div class="card-body">
+                    <div class="price-details">
+                        <div class="price-details-items">
+                            <span class="pdi-name">Price</span>
+                            <span class="pdi-price">INR 999</span>
+                        </div>
+                        <div class="price-details-items">
+                            <span class="pdi-name">Discount</span>
+                            <span class="pdi-price">- INR 500</span>
+                        </div>
+                        <div class="price-details-items">
+                            <span class="pdi-name">Dilivery Charge</span>
+                            <span class="pdi-price">INR 99</span>
+                        </div>
+                    </div>
+                    <div class="total-amount">
+                        <div class="price-details-items">
+                            <span class="pdi-name">Total Amount</span>
+                            <span class="pdi-price">INR 598</span>
+                        </div>
+                    </div>
+                    <div class="side-msg">
+                        You will save INR 500 on this order
+                    </div>
+                    <button class="btn btn-lightblue">Place Order</button>
+                </div>
+            
+            </div>
+        </div>
+
+    </main>
+    
+    
+</body>
+</html>
