@@ -42,3 +42,16 @@ body {
 .bg-white {
     background-color: white;
 }
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-action * {
+    align-items: center;
+}
+
+.product-image {
+    max-width: 10rem;
+}

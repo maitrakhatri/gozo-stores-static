@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gozo Store | Product Listing Page Standard</title>
+    <link rel="stylesheet" href="product-listing-page-standard.css">
+</head>
+<body>
+
+    <nav class="navbar bg-yellow">
+    
+        <div class="navbar-header">
+            <a href="#"><p class="navbar-header-title text-l text-gray">gozo Stores</p></a>
+        </div>
+    
+        <div class="navbar-links">
+
+            <span class="searchbar">
+                <span class="input-group">
+                    <input type="text" placeholder="find your product" />
+                </span>
+                <a href="#"><img class="icon" src="../../assets/icons/search.png" alt="search"></a>
+            </span>
+
+            <div class="icon-with-badge">
+                <a href="#"><img class="icon" src="../../assets/icons/heart-outline.png" alt="wishlist"></a>
+                <span class="badge bg-lightblue">9</span>
+            </div>
+
+            <div class="icon-with-badge">
+                <a href="#"><img class="icon" src="../../assets/icons/cart-outline.png" alt="cart"></a>
+                <span class="badge bg-lightblue">5</span>
+            </div>
+
+            <button class="btn btn-lightblue"><a href="#">Log In</a></button>
+        </div>
+    </nav>
+
+    <main class="product-listing-page">
+
+        <aside class="filters-sidebar flex-col bg-white">
+
+            <div class="sidebar-title">
+
+                <p>Filters</p>
+                <a href="" class="right">Clear</a>
+            </div>
+
+            <div class="all-filters flex-col">
+
+                <div class="filter flex-col" id="price">
+                    <label for="slider">Price</label>
+                    <div class="price-amount">
+                        <p>100</p> <p>250</p> <p>500</p>
+                    </div>
+                    <div class="slider">
+                        <input type="range" min="100" max="500" step="200" id="slider">
+                    </div>
+                </div>
+
+                <div class="filter" id="category">
+                    <div class="category-checkbox flex-col">
+                        <label>Category</label><br>
+                        <span><input type="checkbox" name="category" id="batman">Batman</span>
+                        <span><input type="checkbox" name="category" id="ironman">Ironman</span>
+                        <span><input type="checkbox" name="category" id="joker">Joker </span>
+                    </div>
+                </div>
+
+                <div class="filter" id="rating">
+                    <div class="rating-radio-button flex-col">
+                        <label>Rating</label>
+                        <span><input type="radio" name="rating" id="4+">4+ stars</span>
+                        <span><input type="radio" name="rating" id="3+">3+ stars</span>
+                        <span><input type="radio" name="rating" id="2+">2+ stars</span>
+                        <span><input type="radio" name="rating" id="2+">1+ stars</span>
+                    </div>
+                </div>
+
+                <div class="filter" id="sort-by">
+                    <div class="sortby-radio-button flex-col">
+                        <label>Sort-by</label>
+                        <span><input type="radio" name="sortby" id="inc">Price- Low to High</span>
+                        <span><input type="radio" name="sortby" id="dec">Price- High to Low</span>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+        <div class="product-listing-area">
+
+            <div class="heading">
+                <h4>Showing all products</h4><p>(Showing 20 products)</p>
+            </div>
+
+            <div class="listed-products">
+
+                <div class="product-card product-horizontal bg-white">
+
+                    <div class="product-image-container">
+                        <img class="product-image" src="../../assets/images/batmanPoster.jpg" alt="product name">
+                    </div>
+                
+                    <div class="product-card-body">
+                        <div class="product-name"> The Batman - Ridler's Unmask Poster </div>
+                        <div class="product-price"> <span class="final-price"></span> 499 INR <span class="og-price text-s"><strike> INR 999 </strike></span></div>
+                        <div class="product-offer"> 50% off </div>
+                      
+                        <div class="product-action">
+                            <button class="btn btn-yellow">Go to Cart</button>
+                              <button class="btn btn-lightblue">Remove from Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card product-horizontal bg-white">
+
+                    <div class="product-image-container">
+                        <img class="product-image" src="../../assets/images/batmanPoster.jpg" alt="product name">
+                    </div>
+                
+                    <div class="product-card-body">
+                        <div class="product-name"> The Batman - Ridler's Unmask Poster </div>
+                        <div class="product-price"> <span class="final-price"></span> 499 INR <span class="og-price text-s"><strike> INR 999 </strike></span></div>
+                        <div class="product-offer"> 50% off </div>
+                      
+                        <div class="product-action">
+                            <button class="btn btn-yellow">Add to Cart</button>
+                              <button class="btn btn-outline-lightblue">Save to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card product-horizontal bg-white">
+
+                    <div class="product-image-container">
+                        <img class="product-image" src="../../assets/images/batmanPoster.jpg" alt="product name">
+                    </div>
+                
+                    <div class="product-card-body">
+                        <div class="product-name"> The Batman - Ridler's Unmask Poster </div>
+                        <div class="product-price"> <span class="final-price"></span> 499 INR <span class="og-price text-s"><strike> INR 999 </strike></span></div>
+                        <div class="product-offer"> 50% off </div>
+                      
+                        <div class="product-action">
+                            <button class="btn btn-yellow">Add to Cart</button>
+                              <button class="btn btn-outline-lightblue">Save to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card product-horizontal bg-white">
+
+                    <div class="product-image-container">
+                        <img class="product-image" src="../../assets/images/batmanPoster.jpg" alt="product name">
+                    </div>
+                
+                    <div class="product-card-body">
+                        <div class="product-name"> The Batman - Ridler's Unmask Poster </div>
+                        <div class="product-price"> <span class="final-price"></span> 499 INR <span class="og-price text-s"><strike> INR 999 </strike></span></div>
+                        <div class="product-offer"> 50% off </div>
+                      
+                        <div class="product-action">
+                            <button class="btn btn-yellow">Go to Cart</button>
+                              <button class="btn btn-lightblue">Remove from Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </main>
+    
+    
+</body>
+</html>
