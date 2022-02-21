@@ -55,3 +55,17 @@ body {
 .product-image {
     max-width: 10rem;
 }
+
+.product-image-container {
+    height: 15rem;
+}
+
+.normal-products .product-card {
+    height: 24rem;
+    justify-content: space-between;
+}
+
+.product-card.product-horizontal {
+    width: 27rem;
+    height: 15rem;
+}
