@@ -48,7 +48,8 @@ main a {
 }
 
 .cat-catlog .category img {
-    width: 11rem;
+    width: 14rem;
+    aspect-ratio: 16 / 9;
 }
 
 .cat-catlog {

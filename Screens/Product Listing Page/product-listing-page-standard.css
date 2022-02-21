@@ -67,6 +67,37 @@
 
 .listed-products {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     gap: 3rem;
+}
+
+.hero-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.normal-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+}
+
+.product-image {
+    width: 15rem;
+}
+
+.product-image-container {
+    height: 15rem;
+}
+
+.normal-products .product-card {
+    height: 24rem;
+    justify-content: space-between;
+}
+
+.product-card.product-horizontal {
+    width: 27rem;
+    height: 15rem;
 }
